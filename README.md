@@ -44,14 +44,7 @@ each completed ride, analyzing correlations. <br>
 
 This visualization also include interactive features like a date slicer and most importantly some KPIs such as Total booking, succeeded bookings, cancelled bookings, total booking values etc for better understanding. <br>
 
-The dashboard : 
-<img src=![1](https://github.com/user-attachments/assets/8cafcac1-9624-4236-b8c3-66e6e76f13e9)>
-<img src=![2](https://github.com/user-attachments/assets/54202cd3-957f-4ab6-a1c9-dda442af982c)>
-<img src=![3](https://github.com/user-attachments/assets/8914fea7-ecf0-4fe5-9c8d-927078c722ac)>
-<img src=![4](https://github.com/user-attachments/assets/70fc7fb3-058e-4d73-8012-9f697ab24955)>
-<img src=![5](https://github.com/user-attachments/assets/d090c035-9ad7-4472-83c3-a76de8f46635)>
-
-
+This project demonstrates the power of combining SQL and Power BI to generate actionable insights for ride sharing platforms and supports in data-driven business decisions.
 
 
 
