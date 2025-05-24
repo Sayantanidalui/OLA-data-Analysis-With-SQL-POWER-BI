@@ -21,6 +21,7 @@ Segregation of the views:<br>
 3. Revenue - Revenue by Payment Method, Top 5 Customers by Total Booking Value, Ride Distance Distribution Per Day. <br>
 4. Cancellation - Cancelled Rides Reasons (Customer), cancelled Rides Reasons(Drivers). <br>
 5. Ratings -  Driver Ratings, Customer Ratings. <br>
+
 Answers: <br>
 1. Ride Volume Over Time: A time-series chart showing the number of rides per day/week. <br>
 2. Booking Status Breakdown: A pie chart displaying the proportion of different
