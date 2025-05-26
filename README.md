@@ -47,6 +47,18 @@ This visualization also include interactive features like a date slicer and most
 
 This project demonstrates the power of combining SQL and Power BI to generate actionable insights for ride sharing platforms and supports in data-driven business decisions.
 
+The Dashboard :
+
+![Dashboard page1](https://github.com/user-attachments/assets/e4c23b22-5ad6-4ffa-865f-9f713e1c1aee)
+![Dashboard page2](https://github.com/user-attachments/assets/b81dfeae-0883-4507-8098-7bb4ad46c187)
+![page3](https://github.com/user-attachments/assets/dee3b331-afe8-422a-b711-67906b97d6aa)
+![page4](https://github.com/user-attachments/assets/7c4ccace-b557-4cba-8dea-37be2c6c84fb)
+![page5](https://github.com/user-attachments/assets/86ddbcc1-6a32-4548-b23b-d76fd88be75a)
+
+
+
+
+
 
 
 
