@@ -1,94 +1,79 @@
-# OLA-data-Analysis-With-SQL-POWER-BI
-This project analyzes OLA ride data using SQL for Exploratory Data Analysis (EDA) and Power BI for interactive visualization for the month of July 2024. The goal is to discover patterns in ride bookings, success and cancellation, revenue etc. <br>
+# OLA Data Analysis with SQL & Power BI 🚖📊
 
-## EDA in MYSQL
+This project analyzes OLA ride data for july 2024, using **MySQL** for Exploratory Data Analysis (EDA) and **Power BI** for creating interactive visualizations. The objective is to uncover key insights into booking patterns, cancellations, ratings, and revenue to support business decisions.
 
-**Key insights from SQL analysis**
-1.	Retrieve all successful bookings :  Over 3166 successful bookings were completed.<br>
+---
 
-2.	Find the average ride distance for each vehicle type:  Prime sedan had the longest average ride distances. <br>
+## 🔍 SQL-Based EDA (MySQL)
 
-3.	Get the total number of cancelled rides by customer:  523 rides were cancelled by customers. <br>
+**Key Insights:**
+1. ✅ **Successful Bookings**: Over **12.65K** rides completed.
+2. 🚗 **Average Ride Distance by Vehicle Type**: **Prime Sedan** had the longest rides.
+3. ❌ **Customer Cancellations**: Total of **523** rides.
+4. 👤 **Top 5 Customers**: Identified by booking frequency.
+5. 🛠 **Driver Cancellations**: **312** due to personal/car issues.
+6. 💸 **UPI Payments**: **1,284** rides paid via UPI.
+7. 💰 **Total Successful Booking Value**: **₹1,734,897**.
+8. 🧾 **Incomplete Rides**: **194** due to breakdowns, customer requests, etc.
 
-4.	List the top 5 customers who booked the highest number of rides: Identified top 5 customers based on their booking frequency. <br>
+---
 
-5.	Get the number of rides cancelled by drivers due to personal and car-related issues:  312 such rides retrieve from the data. <br>
+## 📊 Power BI Dashboard
 
-6.	Find the maximum and minimum driver ratings  for prime sedan bookings :  minimum rating is 3 and maximum rating is 5 for prime sedan, is identified. <br>
+**Dashboard Pages:**
 
-7.	Retrieve all rides where payment was made using UPI :  1284 bookings are retrieve where payment was made through UPI. <br>
+1. **Overview**  
+   - Total Bookings  
+   - Booking Status (Success, Cancelled)  
+   - Ride Volume Over Time
 
-8.	Find the average customer rating per vehicle type:  Prime plus had the highest average customer ratings. <br>
+2. **Vehicle Insights** 
+   - Top 5 Vehicle Types by Distance  
+   - Ride Distance Distribution  
+   - Average Ratings by Vehicle Type
 
-9.	Calculate the total bookings value of rides completed successfully :  1734897 total booking value discovered.<br>
+3. **Revenue & Payments** 
+   - Revenue by Payment Method  
+   - Top 5 Customers by Spend
 
-10.	List all the incomplete rides along with the reason: 194 bookings found that are incomplete due to several reasons like customer demand or vehicle breakdown.<br>
+4. **Cancellations**  
+   - Reasons by Customer & Driver  
+   - Cancellations by Type
 
-## Power BI Visualization 
+5. **Ratings** 
+   - Driver Rating Distribution  
+   - Customer vs Driver Rating Comparison
 
-**Segregation of the views**
-1. Overall - Ride Volume Over Time, Booking Status Breakdown. <br>
-2. Vehicle Type - Top 5 Vehicle Types by Ride Distance. <br>
-3. Revenue - Revenue by Payment Method, Top 5 Customers by Total Booking Value, Ride Distance Distribution Per Day. <br>
-4. Cancellation - Cancelled Rides Reasons (Customer), cancelled Rides Reasons(Drivers). <br>
-5. Ratings -  Driver Ratings, Customer Ratings. <br>
+**Interactive Features:** 
+- 📅 Date Slicers  
+- 🧮 KPIs: Total Bookings, Revenue, Cancellations, Success Rate
 
-## Answers: <br>
-1. Ride Volume Over Time: A time-series chart showing the number of rides per day/week. <br>
+---
 
-2. Booking Status Breakdown: A pie chart displaying the proportion of different
-booking statuses (success, cancelled by the customer, cancelled by the driver, etc.). <br>
+## 📷 Dashboard Previews
 
-3. Top 5 Vehicle Types by Ride Distance: A bar chart ranking vehicle types based on the total
-distance covered. <br>
-
-4. Average Customer Ratings by Vehicle Type: A table showing the average
-customer ratings for different vehicle types. <br>
-
-5. cancelled Rides Reasons: A pie chart that highlights the common reasons for ride
-cancellations by customers and drivers. <br>
-
-6. Revenue by Payment Method: A bar chart displaying total revenue based on
-payment methods (Cash, UPI, Credit Card, etc.). <br>
-
-7. Top 5 Customers by Total Booking Value: A leaderboard visual listing customers who have
-spent the most on bookings. <br>
-
-8. Ride Distance Distribution Per Day: A bar chart showing the ride distances for different Dates. <br>
-
-9. Driver Rating Distribution: A table visualizing the spread of driver ratings for different
-vehicle types. <br>
-
-10. Customer vs. Driver Ratings: A table comparing customer and driver ratings for
-each completed ride, analyzing correlations. <br>
-
-
-This visualization also include interactive features like a date slicer and most importantly some KPIs such as Total booking, succeeded bookings, cancelled bookings, total booking values etc for better understanding. <br>
-
-The Dashboard :
-
-Page 1
+*Page 1*  
 ![Dashboard page1](https://github.com/user-attachments/assets/e4c23b22-5ad6-4ffa-865f-9f713e1c1aee)
 
-Page 2
+*Page 2*  
 ![Dashboard page2](https://github.com/user-attachments/assets/b81dfeae-0883-4507-8098-7bb4ad46c187)
 
-Page 3
+*Page 3*  
 ![page3](https://github.com/user-attachments/assets/dee3b331-afe8-422a-b711-67906b97d6aa)
 
-Page 4
+*Page 4*  
 ![page4](https://github.com/user-attachments/assets/7c4ccace-b557-4cba-8dea-37be2c6c84fb)
 
-Page 5
+*Page 5*  
 ![page5](https://github.com/user-attachments/assets/86ddbcc1-6a32-4548-b23b-d76fd88be75a)
 
+---
 
-This project demonstrates the power of combining SQL and Power BI to generate actionable insights for ride sharing platforms and supports in data-driven business decisions.
+## ✅ Conclusion
 
+This project highlights how SQL and Power BI can work together to uncover actionable insights from ride-sharing data—enabling better strategies, improved customer experience, and enhanced operational decisions.
 
-
-
-
-
-
-
+---
+📁 Tools Used: MySQL, Power BI  
+📅 Data Scope: July 2024  
+📌 Focus Areas: Bookings, Cancellations, Ratings, Revenue
