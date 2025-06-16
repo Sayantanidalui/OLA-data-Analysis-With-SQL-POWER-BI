@@ -8,10 +8,10 @@ This project analyzes OLA ride data for july 2024, using **MySQL** for Explorato
 
 **Key Insights:**
 1. ✅ **Successful Bookings**: Over **12.65K** rides completed.
-2. 🚗 **Average Ride Distance by Vehicle Type**: **Prime Sedan** had the longest rides.
-3. ❌ **Customer Cancellations**: Total of **523** rides.
+2. 🚗 **Average Ride Distance by Vehicle Type**: **Bike** had the longest rides.
+3. ❌ **Customer Cancellations**: over **2K** rides.
 4. 👤 **Top 5 Customers**: Identified by booking frequency.
-5. 🛠 **Driver Cancellations**: **312** due to personal/car issues.
+5. 🛠 **Driver Cancellations**: over **3K** rides
 6. 💸 **UPI Payments**: **1,284** rides paid via UPI.
 7. 💰 **Total Successful Booking Value**: **₹1,734,897**.
 8. 🧾 **Incomplete Rides**: **194** due to breakdowns, customer requests, etc.
